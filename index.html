@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui + tailwindcss -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+                <a><img class="w-10" src="assets/logo.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn">Button</a>
+            </div>
+        </div>
+        <!-- Banner -->
+        <section class="mx-[100px]  ">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center bg-[#f7f9fd] px-6 py-12 gap-8">
+                <div class="text-center md:text-left px-4">
+                    <h1 class="text-3xl md:text-5xl font-bold leading-tight"><span>ALWAYS</span> <span
+                            class="text-orange-400">FRESH</span><br> <span class="text-orange-400">FLOWERS</span></h1>
+                    <p class="text-gray-700 mt-4 text-[14px]">Indulge your senses with the beauty and fragrance of <br>
+                        our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of
+                        fresh flowers that <br> are perfect for any occasion. </p>
+                </div>
+                <div class="w-[400px] h-[300px] px-4">
+                    <img src="assets/hero-flower.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="text-center m-0 lg:ml-[150px] lg:mr-[150px] lg:[1140px] justify-center">
+            <div class="w-[270px] lg:w-[888px]">
+                <h2 class="text-5xl font-bold"><span class="text-[#E95A08] ">Our</span> Plants</h2>
+                <p class="text-gray-400">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                    From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <!--card section-->
+            <div class="grid grid-cols-2 lg:grid-cols-3 justify-center gap-1 lg:gap-3 mt-3 ">
+                <div class=" w-[171px] h-[340xp] lg:w-[200px] lg:h-[400px]  ">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <div class=" gap-[30px] text-center">
+                        <h4 class="text-[22px] font-medium">Lily Blossom</h4>
+                        <h3 class="text-[22px] font-bold">20 USD</h3>
+                        <button
+                            class=" w-[100%] h-[50px] bg-[#E95A08] text[16px] text-white font-bold hover:bg-white hover:text-black  duration-500 ">ADD
+                            TO CART</button>
+                    </div>
+                </div>
+                <div class=" w-[171px] h-[340px] lg:w-[200px] lg:h-[400px] ">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <div class=" gap-[30px] text-center">
+                        <h4 class="text-[22px] font-medium">Lily Blossom</h4>
+                        <h3 class="text-[22px] font-bold">20 USD</h3>
+                        <button
+                            class=" w-[100%] h-[50px] bg-[#E95A08] text[16px] text-white font-bold hover:bg-white hover:text-black  duration-500  duration-500">ADD
+                            TO CART</button>
+                    </div>
+                </div>
+                <div class="w-[171px] h-[340xp] lg:w-[200px] lg:h-[400px] ">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <div class=" gap-[30px] text-center">
+                        <h4 class="text-[22px] font-medium">Lily Blossom</h4>
+                        <h3 class="text-[22px] font-bold">20 USD</h3>
+                        <button
+                            class=" w-[100%] h-[50px] bg-[#E95A08] text[16px] text-white font-bold hover:bg-white hover:text-black  duration-500">ADD
+                            TO CART</button>
+                    </div>
+                </div>
+                <div class="w-[171px] h-[340xp] lg:w-[200px] lg:h-[400px]  ">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <div class=" gap-[30px] text-center">
+                        <h4 class="text-[22px] font-medium">Lily Blossom</h4>
+                        <h3 class="text-[22px] font-bold">20 USD</h3>
+                        <button
+                            class=" w-[100%] h-[50px] bg-[#E95A08] text[16px] text-white font-bold hover:bg-white hover:text-black  duration-500">ADD
+                            TO CART</button>
+                    </div>
+                </div>
+                <div class="w-[171px] h-[340xp] lg:w-[200px] lg:h-[400px]  ">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <div class=" gap-[30px] text-center">
+                        <h4 class="text-[22px] font-medium">Lily Blossom</h4>
+                        <h3 class="text-[22px] font-bold">20 USD</h3>
+                        <button
+                            class=" w-[100%] h-[50px] bg-[#E95A08] text[16px] text-white font-bold hover:bg-white hover:text-black  duration-500">ADD
+                            TO CART</button>
+                    </div>
+                </div>
+                <div class="w-[171px] h-[340xp] lg:w-[200px] lg:h-[400px] ">
+                    <img src="assets/sample-flower-image.png" alt="">
+                    <div class=" gap-[30px] text-center">
+                        <h4 class="text-[22px] font-medium">Lily Blossom</h4>
+                        <h3 class="text-[22px] font-bold">20 USD</h3>
+                        <button
+                            class=" w-[100%] h-[50px] bg-[#E95A08] text[16px] text-white font-bold hover:bg-white hover:text-black  duration-500">ADD
+                            TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- form section -->
+        <section class="max-w-[400px] mx-auto border border-gray-500 rounded-lg p-3 mt-3 ">
+            <h2 class="text-xl font-bold text-center">Join us</h2>
+            <form action="" class="flex flex-col  gap-2 mt-2">
+                <input class="border border-gray-300 rounded-md p-1" type="text" placeholder="Enter your name">
+                <input class="border border-gray-300 rounded-md p-1" type="email" placeholder="Enter your email">
+                <input class="border border-gray-300 rounded-md p-1" type="password" placeholder="password">
+            </form>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="bg-black">
+        <section class="lg:flex lg:my-5 gap-28 p-4">
+            <div class="w-[359px] h-[179px]">
+                <img src="assets/logo.png" alt="">
+                <p class="text-[22px] text-gray-500">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop.</p>
+            </div>
+            <div>
+                <ul class="text-[14px] text-gray-500 space-y-3  ">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="text-[14px] text-gray-500 space-y-3 ">
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Help Center</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex space-x-5 mt-5 lg:mt-0">
+                    <img src="assets/icon-linkedin.png" alt="">
+                    <img src="assets/icon-facebook.png" alt="">
+                    <img src="assets/icon-youtube.png" alt="">
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
